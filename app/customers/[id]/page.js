@@ -1,5 +1,7 @@
-// app/customers/[id]/page.js
-import { useRouter } from 'next/router';
+// /app/customers/[id]/page.js
+"use client"; // Mark this component as a Client Component
+
+import { useRouter } from 'next/navigation';
 
 // Sample customer details (replace this with an API call in a real app)
 const customerDetails = {
